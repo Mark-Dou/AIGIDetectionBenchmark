@@ -53,7 +53,7 @@ These methods effectively combat catastrophic forgetting and ensure detection mo
 ## **Datasets**
 
 ### **Training Datasets**
-To train the detection model for AI-generated images, we follow the widely recognized protocol adopted by most methods. Specifically, we train on the **ProGAN dataset**, which is provided by **[Cnn-generated images are surprisingly easy to spot... for now](https://github.com/peterwang512/CNNDetection)**. 
+To train the detection model for AI-generated images, we follow the widely recognized protocol adopted by most methods. Specifically, we train on the **ProGAN dataset**, which is provided by **[CNNSpot](https://github.com/peterwang512/CNNDetection)**. 
 
 ### **Evaluation Datasets**
 The evaluation datasets are organized into two main categories:
@@ -67,7 +67,7 @@ The evaluation datasets are organized into two main categories:
 
    DDPM, iDDPM, ADM, DALLE, GLIDE, LDM, PNDM, Wukong, SDv1.4, Midjourney, SDv1.5, VQDM, SDV2.1, SDXL1.0, SD-Turbo, SDXL-Turbo, SDv3.0, PixArt-sigma, FLUX.1 from UniversalFakeDetect, GenImage, DRCT-2M, DiTFake.
 
-  These datasets are sourced from benchmarks like UniversalFakeDetect, GenImage, DRCT-2M, and DiTFake.
+  These datasets are sourced from benchmarks like [UniversalFakeDetect](https://github.com/WisconsinAIVision/UniversalFakeDetect), [GenImage](https://github.com/GenImage-Dataset/GenImage), [DRCT-2M](https://github.com/beibuwandeluori/DRCT), and [DiTFake](https://github.com/ouxiang-li/safe).
 
 ### **Continual Learning Datasets**
 For continual learning experiments, We meticulously organize these datasets to align with the chronological emergence of that our approach accurately reflects real-world scenarios in the continual learning context. 
