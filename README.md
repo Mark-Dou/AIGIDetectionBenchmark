@@ -39,14 +39,13 @@ The following prominent continual learning techniques are integrated to ensure a
 
 | **Method** | **Paper** | **Training Code** | **Testing Code** |
 |------------|-----------|------------------|-----------------|
-| **Seq**    |           | ✅                | ✅               |
-| **Joint**  |           | ✅                | ✅               |
+| **Seq**    |     /      | ✅                | ✅               |
+| **Joint**  |     /      | ✅                | ✅               |
 | **ER**     |On tiny episodic memories in continual learning           | ✅                | ✅               |
 | **EWC**    |Overcoming catastrophic forgetting in neural networks           | ✅                | ✅               |
 | **OSLA**   |Online structured laplace approx- imations for overcoming catastrophic forgetting           | ✅                | ✅               |
 | **A-GEM**  |Efficient lifelong learning with a-gem           | ✅                | ✅               |
-| **SI**     |Continual learning through synaptic
-intelligence           | ✅                | ✅               |
+| **SI**     |Continual learning through synaptic intelligence           | ✅                | ✅               |
 | **iCaRL**  |icarl: Incremental classifier and representation learning           | ✅                | ✅               |
 | **Linear (Ours)** |Generalizable and Adaptive Continual Learning Framework for AI-generated Image Detection           | ✅                | ✅               |
 
