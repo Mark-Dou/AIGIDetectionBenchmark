@@ -52,3 +52,5 @@ The following prominent continual learning techniques are integrated to ensure a
 These methods effectively combat catastrophic forgetting and ensure detection models retain previous performance while adapting to new AI-generated image data.
 
 ---
+
+## Datasets
