@@ -135,4 +135,27 @@ For example, to evaluate the SimE model:
 bash SimE/test.sh
 ```
 
+### 5️⃣ **Continual Learning for Detection Model**
+Start training models with continual learning methods. In the script, specify the `--CL_method` parameter to define the continual learning method:
+
+For example, to train the **SimE** model using the **Linear** method, specify the method in the script:
+```bash
+--CL_method Linear
+```
+Then execute the following command:
+```bash
+bash SimE/CL_train.sh
+```
+
+### 6️⃣ **Evaluate Continual Learning Results**
+Evaluate the performance of continual learning models:
+```bash
+cd bash_scripts
+bash detection_model/CL_test_AA_AF.sh
+```
+For example, to evaluate the EWC method:
+```bash
+bash SimE/CL_test_AA_AF.sh
+```
+
 
