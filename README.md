@@ -79,15 +79,14 @@ For continual learning experiments, We meticulously organize these datasets to a
 ### **Data Folder Formulation**
 We expect the directory structure to be the following:
 
-`path/to/dataset/
+```plaintext
+./datasets/
 ├── train/                      # Training datasets
 │   ├── ProGAN/                 # Sub-category for GAN-generated images
-│   │   ├── 0_real/             # Real images
-│   │   └── 1_fake/             # Fake images
-│   ├── StyleGAN/               # Another GAN-based generator
-│   │   ├── 0_real/             # Real images
-│   │   └── 1_fake/             # Fake images
-│   └── ...                     # Additional GAN-based datasets
+│   │   ├── car/                # Example class (car)
+│   │   │   ├── 0_real/         # Real images
+│   │   │   └── 1_fake/         # Fake images
+│   │   └── ...                 # Additional classes
 │
 ├── test/                       # Testing datasets
 │   ├── DDPM/                   # Sub-category for Diffusion Models
@@ -97,15 +96,6 @@ We expect the directory structure to be the following:
 │   │   ├── 0_real/             # Real images
 │   │   └── 1_fake/             # Fake images
 │   └── ...                     # Additional testing datasets
-│
-└── continual/                  # Datasets for continual learning
-    ├── step_1/                 # First incremental step
-    │   ├── 0_real/             # Real images
-    │   └── 1_fake/             # Fake images
-    ├── step_2/                 # Second incremental step
-    │   ├── 0_real/             # Real images
-    │   └── 1_fake/             # Fake images
-    └── ...                     # Additional steps for continual learning`
 
 
 
