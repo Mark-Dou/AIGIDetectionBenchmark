@@ -17,7 +17,7 @@ With this benchmark, researchers and practitioners can systematically evaluate, 
 
 ---
 
-## 🔗 ** Overview**
+## 🔗 **Overview**
 
 The AIGIDetectionBenchmark integrates the following components:  
 
