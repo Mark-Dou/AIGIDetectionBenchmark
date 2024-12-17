@@ -1,7 +1,7 @@
 # AIGIDetectionBenchmark
 This is the official implementation for the paper "Generalizable and Adaptive Continual Learning Framework for AI-generated Image Detection."
 
-
+## Network Structure.
 
 ## Catalog
 - [x] Visualization demo.
