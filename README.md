@@ -56,16 +56,20 @@ These methods effectively combat catastrophic forgetting and ensure detection mo
 To train the detection model for AI-generated images, we follow the widely recognized protocol adopted by most methods. Specifically, we train on the **ProGAN dataset**, which is provided by **[Cnn-generated images are surprisingly easy to spot... for now](https://github.com/peterwang512/CNNDetection)**. 
 
 ### **Evaluation Datasets**
-The evaluation datasets are categorized into two main types:
+The evaluation datasets are organized into two main categories:
 - **GAN-generated images**:
-  For the GANs dataset, we utilize the 8 types of GANs for testing, including ProGAN, StyleGAN, StyleGAN2, BigGAN, CycleGAN, StarGAN, GauGAN and DeepFake. The original download link can be found here.
+  For GAN-based methods, we employ 8 types of GANs for testing, including:
+
+  ProGAN, StyleGAN, StyleGAN2, BigGAN, CycleGAN, StarGAN, GauGAN, and DeepFake.
+  
 - **Diffusion model-generated images**:
-  For the DMs dataset, we collect 19 types of SOTA DMs, including DDPM, iDDPM, ADM, DALLE, GLIDE, LDM, PNDM, Wukong, SDv1.4, Midjourney, SDv1.5, VQDM, SDV2.1, SDXL1.0, SD-Turbo, SDXL-Turbo, SDv3.0, PixArt-sigma, FLUX.1 from UniversalFakeDetect, GenImage, DRCT-2M, DiTFake.
+  For the DMs dataset, we collect 19 types of SOTA DMs, including:
+
+   DDPM, iDDPM, ADM, DALLE, GLIDE, LDM, PNDM, Wukong, SDv1.4, Midjourney, SDv1.5, VQDM, SDV2.1, SDXL1.0, SD-Turbo, SDXL-Turbo, SDv3.0, PixArt-sigma, FLUX.1 from UniversalFakeDetect, GenImage, DRCT-2M, DiTFake.
 
 ### **Continual Learning Datasets**
 For continual learning experiments, We meticulously organize these datasets to align with the chronological emergence of that our approach accurately reflects real-world scenarios in the continual learning context. 
 
-**Table: Continual learning dataset.**
 ![Continual_Learning_Datasets](https://github.com/Mark-Dou/AIGIDetectionBenchmark/blob/main/Assets/CL_Datasets.png)
 
 
