@@ -13,7 +13,6 @@ The AIGIDetectionBenchmark integrates the following components:
 - **Continual learning methods** : Ensures detection models stay adaptive to new generative methods while retaining knowledge of previous tasks.  
 - **Training and evaluation workflows** : Ready-to-use code and pre-trained model weights for seamless implementation.  
 
----
 ##  **Supported Models for AI-generated Image Detection**
 
 The following state-of-the-art AI-generated image detection models are integrated into the benchmark:
@@ -31,7 +30,6 @@ The following state-of-the-art AI-generated image detection models are integrate
 | **SAFE**              | Improving synthetic image detection towards generalization                        | ✅                | ✅               | ✅                |
 | **SimE (Ours)** | Generalizable and Adaptive Continual Learning Framework for AI-generated Image Detection| ✅                | ✅               | ✅                |
 
----
 
 ## **Supported Continual Learning Methods**
 
@@ -51,6 +49,5 @@ The following prominent continual learning techniques are integrated to ensure a
 
 These methods effectively combat catastrophic forgetting and ensure detection models retain previous performance while adapting to new AI-generated image data.
 
----
 
 ## Datasets
