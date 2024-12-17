@@ -97,6 +97,11 @@ We expect the directory structure to be the following:
 │   │   └── 1_fake/             # Fake images
 │   └── ...                     # Additional testing datasets
 ```
+## 🏛 **Model Zoo**
+The **Model Zoo** provides pre-trained models for download:
+- **Baseline Detection Models**: Models trained on fixed datasets.
+
+All pre-trained model weights can be accessed [here](#).
 
 ## 🚀 **Quick Start**  
 
@@ -157,5 +162,9 @@ For example, to evaluate the EWC method:
 ```bash
 bash SimE/CL_test_AA_AF.sh
 ```
+
+
+## 🙏 **Acknowledgments**
+This project is built on the open-source repositories [AIGCDetectBenchmark](https://github.com/Ekko-zn/AIGCDetectBenchmark). Thank them for their well-organized codes and datasets!
 
 
