@@ -65,5 +65,36 @@ The evaluation datasets are categorized into two main types:
 ### **Continual Learning Datasets**
 For continual learning experiments, We meticulously organize these datasets to align with the chronological emergence of that our approach accurately reflects real-world scenarios in the continual learning context. 
 
-![Continual_Learning_Datasets](https://github.com/Mark-Dou/AIGIDetectionBenchmark/blob/main/Assets/CL_datasets.png)
+**Table: Continual learning dataset.**
+
+| Family       | Method           | Date    |
+|--------------|------------------|--------|
+| **GAN**      | ProGAN           | Oct 17 |
+|              | CycleGAN         | Nov 17 |
+|              | StarGAN          | Nov 17 |
+|              | BigGAN           | Sep 18 |
+|              | StyleGAN         | Dec 18 |
+|              | GauGAN           | Mar 19 |
+|              | StyleGAN2        | Dec 19 |
+| **DeepFake** | Deepfake         | Nov 17 |
+| **Diffusion**| DDPM             | Jun 20 |
+|              | ADM              | May 21 |
+|              | iDDPM            | Dec 21 |
+|              | DALL·E           | Dec 21 |
+|              | GLIDE            | Dec 21 |
+|              | LDM              | Dec 21 |
+|              | PNDM             | Feb 22 |
+|              | Wukong           | Feb 22 |
+|              | SD v1.4          | Apr 22 |
+|              | Midjourney       | Jul 22 |
+|              | SD v1.5          | Aug 22 |
+|              | VQDM             | Aug 22 |
+|              | SD v2.1          | Nov 22 |
+|              | SDXL v1.0        | Jul 23 |
+|              | SD-Turbo         | Nov 23 |
+|              | SDXL-Turbo       | Nov 23 |
+|              | SD v3.0          | Feb 24 |
+|              | PixArt-Σ         | Mar 24 |
+|              | FLUX.1           | Aug 24 |
+
 
