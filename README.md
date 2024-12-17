@@ -1,2 +1,9 @@
 # AIGIDetectionBenchmark
-This is a benchmark for AI-generated image detection and model adaptation through continual learning
+This is the official implementation for the paper "Generalizable and Adaptive Continual Learning Framework for AI-generated Image Detection."
+
+
+
+## Catalog
+- [x] Visualization demo.
+- [x] Pre-training code.
+- [x] Fine-tuning code.
