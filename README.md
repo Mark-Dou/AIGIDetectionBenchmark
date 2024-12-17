@@ -17,7 +17,7 @@ With this benchmark, researchers and practitioners can systematically evaluate, 
 
 ---
 
-## 🔗 **Framework Overview**
+## 🔗 ** Overview**
 
 The AIGIDetectionBenchmark integrates the following components:  
 
@@ -25,12 +25,5 @@ The AIGIDetectionBenchmark integrates the following components:
 - **Continual learning methods** 🔄: Ensures detection models stay adaptive to new generative methods while retaining knowledge of previous tasks.  
 - **Training and evaluation workflows** ⚙️: Ready-to-use code and pre-trained model weights for seamless implementation.  
 
-### 📋 **Network Structure**
-Below is the high-level architecture of the framework we propose:
-
-- **AI-Generated Image Detection Models**: Integrated models with high generalization capability.  
-- **Continual Learning Module**: Enables effective updates to the detection models, ensuring sustained performance as new generative methods emerge.  
-
-![Framework Architecture](https://github.com/Mark-Dou/AIGIDetectionBenchmark/blob/main/Assets/Framework.png)
 
 ---
