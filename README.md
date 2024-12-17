@@ -65,3 +65,5 @@ The evaluation datasets are categorized into two main types:
 ### **Continual Learning Datasets**
 For continual learning experiments, We meticulously organize these datasets to align with the chronological emergence of that our approach accurately reflects real-world scenarios in the continual learning context. 
 
+![Continual_Learning_Datasets](https://github.com/Mark-Dou/AIGIDetectionBenchmark/blob/main/Assets/CL_datasets.png)
+
