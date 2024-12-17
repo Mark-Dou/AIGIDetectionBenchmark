@@ -19,7 +19,7 @@ The AIGIDetectionBenchmark integrates the following components:
 The following state-of-the-art AI-generated image detection models are integrated into the benchmark:
 
 | **Method**            | **Paper**                                                                 | **Training Code** | **Testing Code** | **Model Weights** |
-|-----------------------|-----------------------------------------------------------------------------------|------------------|-----------------|------------------|
+|:-----------------------:|:-----------------------------------------------------------------------------------:|:------------------:|:-----------------:|:------------------:|
 | **CNNSpot**           | Cnn-generated images are surprisingly easy to spot... for now                     | ✅                | ✅               | ✅                |
 | **FreDect**           | Leveraging frequency analysis for deep fake image recognition                     | ✅                | ✅               | ✅                |
 | **GramNet**           | Global texture enhancement for fake face detection in the wild                    | ✅                | ✅               | ✅                |
@@ -38,7 +38,7 @@ The following state-of-the-art AI-generated image detection models are integrate
 The following prominent continual learning techniques are integrated to ensure adaptability over time:
 <div align="center>
 | **Method** | **Paper** | **Training Code** | **Testing Code** |
-|------------|-----------|------------------|-----------------|
+|:------------:|:-----------:|:------------------:|:-----------------:|
 | **Seq**    |     /      | ✅                | ✅               |
 | **Joint**  |     /      | ✅                | ✅               |
 | **ER**     |On tiny episodic memories in continual learning           | ✅                | ✅               |
