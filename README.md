@@ -100,6 +100,7 @@ We expect the directory structure to be the following:
 ## 🏛 **Model Zoo**
 The **Model Zoo** provides pre-trained models for download:
 - **Baseline Detection Models**: Models trained on fixed datasets.
+- **Re-implemented Models**: We also re-implemented the FatFormer, NPR and SAFE using their official code.
 
 All pre-trained model weights can be accessed [here](#).
 
