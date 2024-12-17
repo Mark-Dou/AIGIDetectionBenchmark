@@ -98,9 +98,9 @@ We expect the directory structure to be the following:
 │   └── ...                     # Additional testing datasets
 ```
 ## 🏛 **Model Zoo**
-The **Model Zoo** provides pre-trained models for download:
+The **Model Zoo** provides pre-trained models and continual learning weights for download:
 - **Baseline Detection Models**: Models trained on fixed datasets.
-- **Re-implemented Models**: We also re-implemented the FatFormer, NPR and SAFE using their official code.
+- **Re-implemented Models**: We also re-implemented the **FatFormer**, **NPR**, and **SAFE** models using their official code. The re-implemented code is available in the **`Reimplemented_models/`** directory.
 
 All pre-trained model weights can be accessed [here](#).
 
