@@ -29,7 +29,7 @@ The following state-of-the-art AI-generated image detection models are integrate
 | **FatFormer**         | Forgery-aware adaptive transformer for generalizable synthetic detection| ✅                | ✅               | ✅                |
 | **NPR**               | Rethinking up-sampling operations in generative networks                | ✅                | ✅               | ✅                |
 | **SAFE**              | Improving synthetic image detection towards generalization              | ✅                | ✅               | ✅                |
-| **SimE (Our Method)** | Our proposed continual learning method                                  | ✅                | ✅               | ✅                |
+| **SimE (Our Method)** | Generalizable and Adaptive Continual Learning Framework for AI-generated Image Detection| ✅                | ✅               | ✅                |
 
 These models allow for thorough benchmarking across diverse datasets and generative models.
 
