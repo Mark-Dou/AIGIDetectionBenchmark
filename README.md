@@ -14,23 +14,22 @@ The AIGIDetectionBenchmark integrates the following components:
 - **Training and evaluation workflows** : Ready-to-use code and pre-trained model weights for seamless implementation.  
 
 ---
-## **Supported Models for AI-generated Image Detection**
+##  **Supported Models for AI-generated Image Detection**
 
 The following state-of-the-art AI-generated image detection models are integrated into the benchmark:
 
-| **Method**       | **Paper**            | **Training Code** | **Testing Code** | **Model Weights** |
-|------------------|----------------------|------------------|-----------------|------------------|
-| **CNNSpot**      |                      | ✅                | ✅               | ✅                |
-| **FreDect**      |                      | ✅                | ✅               | ✅                |
-| **GramNet**      |                      | ✅                | ✅               | ✅                |
-| **LGrad**        |                      | ✅                | ✅               | ✅                |
-| **LNP**          |                      | ✅                | ✅               | ✅                |
-| **UnivFD**       |                      | ✅                | ✅               | ✅                |
-| **FatFormer**    |                      | ✅                | ✅               | ✅                |
-| **NPR**          |                      | ✅                | ✅               | ✅                |
-| **SAFE**         |                      | ✅                | ✅               | ✅                |
-| **SimE (Our Method)** |                 | ✅                | ✅               | ✅                |
-
+| **Method**            | **Paper**                                                                 | **Training Code** | **Testing Code** | **Model Weights** |
+|-----------------------|--------------------------------------------------------------------------|------------------|-----------------|------------------|
+| **CNNSpot**           | Cnn-generated images are surprisingly easy to spot... for now           | ✅                | ✅               | ✅                |
+| **FreDect**           | Leveraging frequency analysis for deep fake image recognition           | ✅                | ✅               | ✅                |
+| **GramNet**           | Global texture enhancement for fake face detection in the wild          | ✅                | ✅               | ✅                |
+| **LGrad**             | Learning on gradients: Generalized artifacts representation             | ✅                | ✅               | ✅                |
+| **LNP**               | Detecting generated images by real images                               | ✅                | ✅               | ✅                |
+| **UnivFD**            | Towards universal fake image detectors that generalize across models    | ✅                | ✅               | ✅                |
+| **FatFormer**         | Forgery-aware adaptive transformer for generalizable synthetic detection| ✅                | ✅               | ✅                |
+| **NPR**               | Rethinking up-sampling operations in generative networks                | ✅                | ✅               | ✅                |
+| **SAFE**              | Improving synthetic image detection towards generalization              | ✅                | ✅               | ✅                |
+| **SimE (Our Method)** | Our proposed continual learning method                                  | ✅                | ✅               | ✅                |
 
 These models allow for thorough benchmarking across diverse datasets and generative models.
 
