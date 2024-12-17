@@ -53,7 +53,7 @@ These methods effectively combat catastrophic forgetting and ensure detection mo
 ## **Datasets**
 
 ### **Training Datasets**
-To train the detection model for AI-generated images, we follow the widely recognized protocol adopted by most methods. Specifically, we train on the **ProGAN dataset**, which is provided by **[CNNSpot](https://github.com/peterwang512/CNNDetection)**. 
+To train the detection model for AI-generated images, we follow the widely recognized protocol adopted by most methods. Specifically, we train on the **ProGAN dataset**, which is provided by [CNNSpot](https://github.com/peterwang512/CNNDetection). 
 
 ### **Evaluation Datasets**
 The evaluation datasets are organized into two main categories:
