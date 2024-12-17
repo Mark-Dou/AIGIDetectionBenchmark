@@ -124,4 +124,15 @@ For example, to train the SimE model:
 bash SimE/train.sh
 ```
 
+### 4️⃣ **Evaluate the Detection Model**
+Evaluate the trained AI-generated image detection model:
+```bash
+cd bash_scripts
+bash detection_model/test.sh
+```
+For example, to evaluate the SimE model:
+```bash
+bash SimE/test.sh
+```
+
 
