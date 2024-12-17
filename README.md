@@ -31,17 +31,23 @@ The following state-of-the-art AI-generated image detection models are integrate
 | **SAFE**              | Improving synthetic image detection towards generalization                        | ✅                | ✅               | ✅                |
 | **SimE (Ours)** | Generalizable and Adaptive Continual Learning Framework for AI-generated Image Detection| ✅                | ✅               | ✅                |
 
-These models allow for thorough benchmarking across diverse datasets and generative models.
-
 ---
 
 ## **Supported Continual Learning Methods**
+
 The following prominent continual learning techniques are integrated to ensure adaptability over time:
-- **Elastic Weight Consolidation (EWC)** 🔒  
-- **Learning Without Forgetting (LwF)** 🔄  
-- **Replay-based Methods** (e.g., Experience Replay) 🔁  
-- **Knowledge Distillation** 🌟  
-- **Online Parameter Updates** 📈  
+
+| **Method** | **Paper** | **Training Code** | **Testing Code** |
+|------------|-----------|------------------|-----------------|
+| **Seq**    |           | ✅                | ✅               |
+| **Joint**  |           | ✅                | ✅               |
+| **ER**     |           | ✅                | ✅               |
+| **EWC**    |           | ✅                | ✅               |
+| **OSLA**   |           | ✅                | ✅               |
+| **A-GEM**  |           | ✅                | ✅               |
+| **SI**     |           | ✅                | ✅               |
+| **iCaRL**  |           | ✅                | ✅               |
+| **Linear** |           | ✅                | ✅               |
 
 These methods effectively combat **catastrophic forgetting** and ensure detection models retain previous performance while adapting to new AI-generated image data.
 
