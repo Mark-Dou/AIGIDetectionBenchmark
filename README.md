@@ -36,7 +36,7 @@ The following state-of-the-art AI-generated image detection models are integrate
 ## **Supported Continual Learning Methods**
 
 The following prominent continual learning techniques are integrated to ensure adaptability over time:
-
+<div align="center>
 | **Method** | **Paper** | **Training Code** | **Testing Code** |
 |------------|-----------|------------------|-----------------|
 | **Seq**    |     /      | ✅                | ✅               |
@@ -48,7 +48,7 @@ The following prominent continual learning techniques are integrated to ensure a
 | **SI**     |Continual learning through synaptic intelligence           | ✅                | ✅               |
 | **iCaRL**  |icarl: Incremental classifier and representation learning           | ✅                | ✅               |
 | **Linear (Ours)** |Generalizable and Adaptive Continual Learning Framework for AI-generated Image Detection           | ✅                | ✅               |
-
+</dev>
 These methods effectively combat **catastrophic forgetting** and ensure detection models retain previous performance while adapting to new AI-generated image data.
 
 ---
