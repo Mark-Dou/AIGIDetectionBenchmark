@@ -67,6 +67,8 @@ The evaluation datasets are organized into two main categories:
 
    DDPM, iDDPM, ADM, DALLE, GLIDE, LDM, PNDM, Wukong, SDv1.4, Midjourney, SDv1.5, VQDM, SDV2.1, SDXL1.0, SD-Turbo, SDXL-Turbo, SDv3.0, PixArt-sigma, FLUX.1 from UniversalFakeDetect, GenImage, DRCT-2M, DiTFake.
 
+  These datasets are sourced from benchmarks like UniversalFakeDetect, GenImage, DRCT-2M, and DiTFake.
+
 ### **Continual Learning Datasets**
 For continual learning experiments, We meticulously organize these datasets to align with the chronological emergence of that our approach accurately reflects real-world scenarios in the continual learning context. 
 
