@@ -27,18 +27,21 @@ The AIGIDetectionBenchmark integrates the following components:
 
 ---
 
-## **Supported Models for AI-generated Image Detection**
 The following state-of-the-art AI-generated image detection models are integrated into the benchmark:
-- **CNNSpot**
-- **FreDect**
-- **GramNet** 
-- **LGrad** 
-- **LNP**
-- **UnivFD**
-- **FatFormer**
-- **NPR**
-- **SAFE**
-- **SimE(our method)** 
+
+| **Method**       | **Paper**            | **Training Code** | **Testing Code** | **Model Weights** |
+|------------------|----------------------|------------------|-----------------|------------------|
+| **CNNSpot**      |                      | ✅                | ✅               | ✅                |
+| **FreDect**      |                      | ✅                | ✅               | ✅                |
+| **GramNet**      |                      | ✅                | ✅               | ✅                |
+| **LGrad**        |                      | ✅                | ✅               | ✅                |
+| **LNP**          |                      | ✅                | ✅               | ✅                |
+| **UnivFD**       |                      | ✅                | ✅               | ✅                |
+| **FatFormer**    |                      | ✅                | ✅               | ✅                |
+| **NPR**          |                      | ✅                | ✅               | ✅                |
+| **SAFE**         |                      | ✅                | ✅               | ✅                |
+| **SimE (Our Method)** |                 | ✅                | ✅               | ✅                |
+
 
 These models allow for thorough benchmarking across diverse datasets and generative models.
 
