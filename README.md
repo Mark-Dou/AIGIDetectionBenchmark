@@ -96,6 +96,7 @@ We expect the directory structure to be the following:
 │   │   ├── 0_real/             # Real images
 │   │   └── 1_fake/             # Fake images
 │   └── ...                     # Additional testing datasets
+```
 
 ## 🚀 **Quick Start**  
 
