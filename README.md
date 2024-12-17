@@ -74,7 +74,6 @@ The evaluation datasets are organized into two main categories:
 ### **Continual Learning Datasets**
 For continual learning experiments, We meticulously organize these datasets to align with the chronological emergence of that our approach accurately reflects real-world scenarios in the continual learning context. 
 
-# ![Framework Architecture](https://github.com/Mark-Dou/AIGIDetectionBenchmark/blob/main/Assets/Framework.png)
 <img src="https://github.com/Mark-Dou/AIGIDetectionBenchmark/blob/main/Assets/CL_Datasets.png" alt="Continual Learning Datasets" width="600px" />
 
 ### **Data Folder Formulation**
