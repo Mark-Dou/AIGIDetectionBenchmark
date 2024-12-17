@@ -41,13 +41,14 @@ The following prominent continual learning techniques are integrated to ensure a
 |------------|-----------|------------------|-----------------|
 | **Seq**    |           | ✅                | ✅               |
 | **Joint**  |           | ✅                | ✅               |
-| **ER**     |           | ✅                | ✅               |
-| **EWC**    |           | ✅                | ✅               |
-| **OSLA**   |           | ✅                | ✅               |
-| **A-GEM**  |           | ✅                | ✅               |
-| **SI**     |           | ✅                | ✅               |
-| **iCaRL**  |           | ✅                | ✅               |
-| **Linear** |           | ✅                | ✅               |
+| **ER**     |On tiny episodic memories in continual learning           | ✅                | ✅               |
+| **EWC**    |Overcoming catastrophic forgetting in neural networks           | ✅                | ✅               |
+| **OSLA**   |Online structured laplace approx- imations for overcoming catastrophic forgetting           | ✅                | ✅               |
+| **A-GEM**  |Efficient lifelong learning with a-gem           | ✅                | ✅               |
+| **SI**     |Continual learning through synaptic
+intelligence           | ✅                | ✅               |
+| **iCaRL**  |icarl: Incremental classifier and representation learning           | ✅                | ✅               |
+| **Linear (Ours)** |Generalizable and Adaptive Continual Learning Framework for AI-generated Image Detection           | ✅                | ✅               |
 
 These methods effectively combat **catastrophic forgetting** and ensure detection models retain previous performance while adapting to new AI-generated image data.
 
