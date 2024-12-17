@@ -49,6 +49,6 @@ The following prominent continual learning techniques are integrated to ensure a
 | **iCaRL**  |icarl: Incremental classifier and representation learning           | ✅                | ✅               |
 | **Linear (Ours)** |Generalizable and Adaptive Continual Learning Framework for AI-generated Image Detection           | ✅                | ✅               |
 
-These methods effectively combat **catastrophic forgetting** and ensure detection models retain previous performance while adapting to new AI-generated image data.
+These methods effectively combat catastrophic forgetting and ensure detection models retain previous performance while adapting to new AI-generated image data.
 
 ---
