@@ -57,9 +57,11 @@ To train the detection model for AI-generated images, we follow the widely recog
 
 ### **Evaluation Datasets**
 The evaluation datasets are categorized into two main types:
-- **GAN-generated images**: 
-- **Diffusion model-generated images**: 
+- **GAN-generated images**:
+  For the GANs dataset, we utilize the 8 types of GANs for testing, including ProGAN, StyleGAN, StyleGAN2, BigGAN, CycleGAN, StarGAN, GauGAN and DeepFake. The original download link can be found here.
+- **Diffusion model-generated images**:
+  For the DMs dataset, we collect 19 types of SOTA DMs, including DDPM, iDDPM, ADM, DALLE, GLIDE, LDM, PNDM, Wukong, SDv1.4, Midjourney, SDv1.5, VQDM, SDV2.1, SDXL1.0, SD-Turbo, SDXL-Turbo, SDv3.0, PixArt-sigma, FLUX.1 from UniversalFakeDetect, GenImage, DRCT-2M, DiTFake.
 
 ### **Continual Learning Datasets**
-For continual learning experiments, we curate datasets that are incrementally introduced to simulate evolving AI-generated image distributions. These datasets ensure models can adapt to new generative methods while retaining previous detection capabilities.
+For continual learning experiments, We meticulously organize these datasets to align with the chronological emergence of that our approach accurately reflects real-world scenarios in the continual learning context. 
 
