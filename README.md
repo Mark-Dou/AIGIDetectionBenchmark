@@ -19,17 +19,17 @@ The AIGIDetectionBenchmark integrates the following components:
 The following state-of-the-art AI-generated image detection models are integrated into the benchmark:
 
 | **Method**            | **Paper**                                                                 | **Training Code** | **Testing Code** | **Model Weights** |
-|-----------------------|-----------------------------------------------------------------------------------------|------------------|-----------------|------------------|
-| **CNNSpot**           | Cnn-generated images are surprisingly easy to spot... for now                           | ✅                | ✅               | ✅                |
-| **FreDect**           | Leveraging frequency analysis for deep fake image recognition                           | ✅                | ✅               | ✅                |
-| **GramNet**           | Global texture enhancement for fake face detection in the wild                          | ✅                | ✅               | ✅                |
-| **LGrad**             | Learning on gradients: Generalized artifacts representation                             | ✅                | ✅               | ✅                |
-| **LNP**               | Detecting generated images by real images                                               | ✅                | ✅               | ✅                |
-| **UnivFD**            | Towards universal fake image detectors that generalize across models                    | ✅                | ✅               | ✅                |
-| **FatFormer**         | Forgery-aware adaptive transformer for generalizable synthetic detection                | ✅                | ✅               | ✅                |
-| **NPR**               | Rethinking up-sampling operations in generative networks                                | ✅                | ✅               | ✅                |
-| **SAFE**              | Improving synthetic image detection towards generalization                              | ✅                | ✅               | ✅                |
-| **SimE (Our Method)** | Generalizable and Adaptive Continual Learning Framework for AI-generated Image Detection| ✅                | ✅               | ✅                |
+|-----------------------|-----------------------------------------------------------------------------------|------------------|-----------------|------------------|
+| **CNNSpot**           | Cnn-generated images are surprisingly easy to spot... for now                     | ✅                | ✅               | ✅                |
+| **FreDect**           | Leveraging frequency analysis for deep fake image recognition                     | ✅                | ✅               | ✅                |
+| **GramNet**           | Global texture enhancement for fake face detection in the wild                    | ✅                | ✅               | ✅                |
+| **LGrad**             | Learning on gradients: Generalized artifacts representation                       | ✅                | ✅               | ✅                |
+| **LNP**               | Detecting generated images by real images                                         | ✅                | ✅               | ✅                |
+| **UnivFD**            | Towards universal fake image detectors that generalize across models              | ✅                | ✅               | ✅                |
+| **FatFormer**         | Forgery-aware adaptive transformer for generalizable synthetic detection          | ✅                | ✅               | ✅                |
+| **NPR**               | Rethinking up-sampling operations in generative networks                          | ✅                | ✅               | ✅                |
+| **SAFE**              | Improving synthetic image detection towards generalization                        | ✅                | ✅               | ✅                |
+| **SimE (Ours)** | Generalizable and Adaptive Continual Learning Framework for AI-generated Image Detection| ✅                | ✅               | ✅                |
 
 These models allow for thorough benchmarking across diverse datasets and generative models.
 
