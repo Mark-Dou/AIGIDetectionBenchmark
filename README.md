@@ -141,7 +141,7 @@ For example, to evaluate the SimE model:
 bash SimE/test.sh
 ```
 
-### 5️⃣ **Continual Learning for Detection Model**
+### 5️⃣ **Continual Learning for Detection Models**
 Start training models with continual learning methods. In the script, specify the `--CL_method` parameter to define the continual learning method:
 
 For example, to train the **SimE** model using the **Linear** method, specify the method in the script:
