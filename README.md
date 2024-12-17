@@ -62,7 +62,7 @@ The evaluation datasets are organized into two main categories:
 
   ProGAN, StyleGAN, StyleGAN2, BigGAN, CycleGAN, StarGAN, GauGAN, and DeepFake.
 
-  These datasets are sourced from benchmarks:[CNNSpot](https://github.com/peterwang512/CNNDetection)
+  These datasets are sourced from benchmarks: [CNNSpot](https://github.com/peterwang512/CNNDetection)
   
 - **Diffusion model-generated images**:
   For the DMs dataset, we collect 19 types of SOTA DMs, including:
@@ -97,5 +97,30 @@ We expect the directory structure to be the following:
 │   │   └── 1_fake/             # Fake images
 │   └── ...                     # Additional testing datasets
 
+## 🚀 **Quick Start**  
+
+### 1️⃣ **Clone the Repository**
+First, clone this repository to your local machine:
+```bash
+git clone https://github.com/Mark-Dou/AIGIDetectionBenchmark.git
+cd AIGIDetectionBenchmark
+```
+
+### 2️⃣ **Install Dependencies**
+Install the necessary libraries and frameworks:
+```bash
+pip install -r requirements.txt
+```
+
+### 3️⃣ **Train the Detection Model**
+Start training the AI-generated image detection model using your dataset:
+```bash
+cd bash_scripts
+bash detection_model/train.sh
+```
+For example, to train using the SimE method:
+```bash
+bash SimE/train.sh
+```
 
 
