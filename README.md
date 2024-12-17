@@ -50,8 +50,16 @@ The following prominent continual learning techniques are integrated to ensure a
 These methods effectively combat catastrophic forgetting and ensure detection models retain previous performance while adapting to new AI-generated image data.
 
 
-## Datasets
+## **Datasets**
 
-### Training Datasets
+### **Training Datasets**
+To train the detection model for AI-generated images, we follow the widely recognized protocol adopted by most methods. Specifically, we train on the **ProGAN dataset**, which is provided by **[Cnn-generated images are surprisingly easy to spot... for now](https://github.com/peterwang512/CNNDetection)**. 
 
-### Evaluation Datasets
+### **Evaluation Datasets**
+The evaluation datasets are categorized into two main types:
+- **GAN-generated images**: 
+- **Diffusion model-generated images**: 
+
+### **Continual Learning Datasets**
+For continual learning experiments, we curate datasets that are incrementally introduced to simulate evolving AI-generated image distributions. These datasets ensure models can adapt to new generative methods while retaining previous detection capabilities.
+
