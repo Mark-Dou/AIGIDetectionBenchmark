@@ -29,12 +29,16 @@ The AIGIDetectionBenchmark integrates the following components:
 
 ## 🧩 **Supported Models for AI-generated Image Detection**
 The following state-of-the-art AI-generated image detection models are integrated into the benchmark:
-- **XceptionNet** 🧠  
-- **EfficientNet** ⚡  
-- **ResNet50** 🛠️  
-- **DenseNet** 🔍  
-- **Vision Transformer (ViT)** 🌟  
-- **Custom Lightweight CNNs** ⚙️  
+- **CNNSpot**
+- **FreDect**
+- **GramNet** 
+- **LGrad** 
+- **LNP**
+- **UnivFD**
+- **FatFormer**
+- **NPR**
+- **SAFE**
+- **SimE(our method)** 
 
 These models allow for thorough benchmarking across diverse datasets and generative models.
 
