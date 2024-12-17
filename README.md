@@ -114,12 +114,12 @@ pip install -r requirements.txt
 ```
 
 ### 3️⃣ **Train the Detection Model**
-Start training the AI-generated image detection model using your dataset:
+Start training the AI-generated image detection model:
 ```bash
 cd bash_scripts
 bash detection_model/train.sh
 ```
-For example, to train using the SimE method:
+For example, to train the SimE model:
 ```bash
 bash SimE/train.sh
 ```
