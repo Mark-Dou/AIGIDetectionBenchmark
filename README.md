@@ -1,6 +1,6 @@
 # 🌟 **AIGIDetectionBenchmark** 🌟  
 
-**Welcome to the official repository of** 📄 [*"Generalizable and Adaptive Continual Learning Framework for AI-generated Image Detection"*](#)! 🛠️  
+**The official code of** 📄 [*"Generalizable and Adaptive Continual Learning Framework for AI-generated Image Detection"*](#)! 🛠️  
 
 This repository provides a comprehensive **benchmark** for **AI-generated image detection**, integrating advanced methods to ensure generalization and adaptability in continually evolving tasks. 🚀
 
