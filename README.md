@@ -61,13 +61,15 @@ The evaluation datasets are organized into two main categories:
   For GAN-based methods, we employ 8 types of GANs for testing, including:
 
   ProGAN, StyleGAN, StyleGAN2, BigGAN, CycleGAN, StarGAN, GauGAN, and DeepFake.
+
+  These datasets are sourced from benchmarks:[CNNSpot](https://github.com/peterwang512/CNNDetection)
   
 - **Diffusion model-generated images**:
   For the DMs dataset, we collect 19 types of SOTA DMs, including:
 
    DDPM, iDDPM, ADM, DALLE, GLIDE, LDM, PNDM, Wukong, SDv1.4, Midjourney, SDv1.5, VQDM, SDV2.1, SDXL1.0, SD-Turbo, SDXL-Turbo, SDv3.0, PixArt-sigma, FLUX.1 from UniversalFakeDetect, GenImage, DRCT-2M, DiTFake.
 
-  These datasets are sourced from benchmarks like [UniversalFakeDetect](https://github.com/WisconsinAIVision/UniversalFakeDetect), [GenImage](https://github.com/GenImage-Dataset/GenImage), [DRCT-2M](https://github.com/beibuwandeluori/DRCT), and [DiTFake](https://github.com/ouxiang-li/safe).
+  These datasets are sourced from benchmarks: [UniversalFakeDetect](https://github.com/WisconsinAIVision/UniversalFakeDetect), [GenImage](https://github.com/GenImage-Dataset/GenImage), [DRCT-2M](https://github.com/beibuwandeluori/DRCT), and [DiTFake](https://github.com/ouxiang-li/safe).
 
 ### **Continual Learning Datasets**
 For continual learning experiments, We meticulously organize these datasets to align with the chronological emergence of that our approach accurately reflects real-world scenarios in the continual learning context. 
