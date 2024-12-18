@@ -20,6 +20,7 @@ for CL_METHOD in "${CL_METHODS[@]}"; do
     --dataset_name $DATASET_NAME \
     --multiclass 1 1 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 \
     --detection_model $NAME \
+    --arch ViT-B/32 \
     --model_dir ./outputs/continual_learning \
     --output_dir ./CL_results \
     --checkpoint_name $ \
