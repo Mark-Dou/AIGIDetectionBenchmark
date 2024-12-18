@@ -22,7 +22,7 @@ for CL_METHOD in "${CL_METHODS[@]}"; do
     --detection_model $NAME \
     --model_dir ./outputs/continual_learning \
     --output_dir ./CL_results \
-    --checkpoint_name $ \
+    --checkpoint_name $CHECKPOINT_NAME \
     --cl_method $CL_METHOD \
     --batch_size $BS
 done
