@@ -6,7 +6,7 @@ TESTSETS=("ProGAN" "LSUN-bedroom" "GenImage" "cvpr23_ojha" "DRCT-2M" "DiTFake")
 DEVICE="cuda:4"
 NAME="FatFormer"
 MODEL_PATH="weights/classifier/FatFormer/fatformer_4class_ckpt.pth"
-BS=4
+BS=256
 
 cd ..
 
