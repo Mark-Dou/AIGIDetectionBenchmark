@@ -6,7 +6,7 @@ TESTSETS=("ProGAN" "LSUN-bedroom" "GenImage" "cvpr23_ojha" "DRCT-2M" "DiTFake")
 DEVICE="cuda:4"
 NAME="UnivFD"
 MODEL_PATH="weights/classifier/UnivFD/fc_weights.pth"
-BS=4
+BS=256
 
 cd ..
 
