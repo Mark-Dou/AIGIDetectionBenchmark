@@ -6,7 +6,7 @@ TESTSETS=("ProGAN" "LSUN-bedroom" "GenImage" "cvpr23_ojha" "DRCT-2M" "DiTFake")
 DEVICE="cuda:4"
 NAME="GramNet"
 MODEL_PATH="weights/classifier/GramNet/Gram.pth"
-BS=32
+BS=256
 
 cd ..
 
