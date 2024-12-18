@@ -102,7 +102,8 @@ The **Model Zoo** provides pre-trained models and continual learning weights for
 - **Baseline Detection Models**: Models trained on fixed datasets.
 - **Re-implemented Models**: We also re-implemented the [**FatFormer**](https://github.com/Mark-Dou/AIGIDetectionBenchmark/edit/main/README.md), [**NPR**](https://github.com/chuangchuangtan/NPR-DeepfakeDetection), and [**SAFE**](https://github.com/Ouxiang-Li/SAFE) models using their official code. The re-implemented code is available in the **`Reimplemented_models/`** directory.
 
-All pre-trained model weights can be accessed [here](#).
+All pre-trained model weights can be downloaded [Google_Drive](https://drive.google.com/drive/folders/1WLFeDaUnZOGXLGm6ws0uTwGZbc6NyJja?usp=sharing).
+Please place the downloaded model weights into the ```weights``` directory of our project.
 
 ## 🚀 **Quick Start**  
 
