@@ -6,7 +6,7 @@ TESTSETS=("ProGAN" "LSUN-bedroom" "GenImage" "cvpr23_ojha" "DiTFake" "DRCT-2M")
 DEVICE="cuda:4"
 NAME="SimE"
 MODEL_PATH="weights/classifier/SimE/vit_l_14_model_epoch_best.pth"
-BS=16
+BS=256
 
 cd ..
 
