@@ -6,7 +6,7 @@ TESTSETS=("ProGAN" "LSUN-bedroom" "GenImage" "cvpr23_ojha" "DRCT-2M" "DiTFake")
 DEVICE="cuda:4"
 NAME="CNNSpot"
 MODEL_PATH="weights/classifier/CNNSpot/blur_jpg_prob0.1.pth"
-BS=32
+BS=256
 
 cd ..
 
