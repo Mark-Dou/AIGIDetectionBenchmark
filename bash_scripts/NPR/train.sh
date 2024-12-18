@@ -5,10 +5,10 @@ export CUDA_VISIBLE_DEVICES=4
 DDP_WORLD_SIZE=1
 DDP_PORT=12346
 
-DATAROOT="/dev/shm/why_data/ProGAN"
+DATAROOT="datasets/ProGAN"
 CLASSES="airplane,bird,bicycle,boat,bottle,bus,car,cat,cow,chair,diningtable,dog,person,pottedplant,motorbike,tvmonitor,train,sheep,sofa,horse"
 NAME="NPR"
-BS=12
+BS=256
 ####################################
 
 cd ..
