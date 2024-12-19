@@ -160,7 +160,7 @@ Evaluate the performance of continual learning models:
 cd bash_scripts
 bash detection_model/CL_test_AA_AF.sh
 ```
-For example, to evaluate the EWC method:
+For example, to evaluate the SimE model using the **Linear** method:
 ```bash
 bash SimE/CL_test_AA_AF.sh
 ```
